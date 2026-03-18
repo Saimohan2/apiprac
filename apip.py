@@ -35,3 +35,5 @@ for row in data:
 details = pd.DataFrame(records)
 
 print(details.head())
+
+print(details.columns)
