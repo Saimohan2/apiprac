@@ -4,8 +4,6 @@ import time
 
 records = []
 
-
-
 url = "https://api.open-meteo.com/v1/forecast"
 
 params = {
