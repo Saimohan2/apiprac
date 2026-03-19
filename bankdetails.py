@@ -29,7 +29,7 @@ for user in users:
         "city": address.get("city"),
         "latitude": float(lat) if lat else None,
         "longitude": float(lon) if lon else None,
-        "currency": bank.get("currency")
+        "currency": bank.get("currency") #commit
     })
 
 print(user_data[:3])
